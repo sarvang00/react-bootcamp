@@ -1,9 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./style.css"
 
 function App() {
     return(
-        <h1>Hello World, Again!?</h1>
+        <div>
+            <h1 style={{textAlign:"center"}}>Hello World, Again!?</h1>
+            <button className="button">Boobytrap</button>
+        </div>
     )
 }
 
