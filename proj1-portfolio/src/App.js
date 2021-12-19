@@ -1,9 +1,11 @@
 import React from "react";
 
+import Navbar from "./Navbar";
+
 const App = () => {
   return (
-    <div className="App">
-      <p>Wil replicate a new template here.</p>
+    <div>
+      <Navbar/>
     </div>
   );
 }
