@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Masthead from "./Masthead"
 import PortfolioSection from "./PortfolioSection";
+import AboutSection from "./AboutSection";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Masthead />
       <PortfolioSection />
+      <AboutSection />
     </div>
   );
 }
