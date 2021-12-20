@@ -6,6 +6,7 @@ import PortfolioSection from "./PortfolioSection";
 import AboutSection from "./AboutSection";
 import ContactMeSection from "./ContactMeSection";
 import Footer from "./Footer";
+import CopyrightSection from "./CopyrightSection";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <AboutSection />
       <ContactMeSection />
       <Footer />
+      <CopyrightSection />
     </div>
   );
 }
