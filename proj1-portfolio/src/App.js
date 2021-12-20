@@ -7,9 +7,9 @@ import PortfolioSection from "./PortfolioSection";
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Masthead/>
-      <PortfolioSection/>
+      <Navbar />
+      <Masthead />
+      <PortfolioSection />
     </div>
   );
 }

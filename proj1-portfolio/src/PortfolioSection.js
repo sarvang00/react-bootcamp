@@ -17,17 +17,17 @@ const PortfolioSection = () => {
                 {/* <!-- Portfolio Grid Items--> */}
                 <div className="row justify-content-center">
                     {/* <!-- Portfolio Item 1--> */}
-                    <PortfolioItem img_src="assets/img/portfolio/cabin.png"></PortfolioItem>
+                    <PortfolioItem img_src="assets/img/portfolio/cabin.png" target_modal_id="portfolioModal1" modal_tite="Cabin"></PortfolioItem>
                     {/* <!-- Portfolio Item 2--> */}
-                    <PortfolioItem img_src="assets/img/portfolio/cake.png"></PortfolioItem>
+                    <PortfolioItem img_src="assets/img/portfolio/cake.png" target_modal_id="portfolioModal2" modal_tite="Cake"></PortfolioItem>
                     {/* <!-- Portfolio Item 3--> */}
-                    <PortfolioItem img_src="assets/img/portfolio/circus.png"></PortfolioItem>
+                    <PortfolioItem img_src="assets/img/portfolio/circus.png" target_modal_id="portfolioModal3" modal_tite="Circus"></PortfolioItem>
                     {/* <!-- Portfolio Item 4--> */}
-                    <PortfolioItem img_src="assets/img/portfolio/game.png"></PortfolioItem>
+                    <PortfolioItem img_src="assets/img/portfolio/game.png" target_modal_id="portfolioModal4" modal_tite="Game"></PortfolioItem>
                     {/* <!-- Portfolio Item 5--> */}
-                    <PortfolioItem img_src="assets/img/portfolio/safe.png"></PortfolioItem>
+                    <PortfolioItem img_src="assets/img/portfolio/safe.png" target_modal_id="portfolioModal5" modal_tite="Safe"></PortfolioItem>
                     {/* <!-- Portfolio Item 6--> */}
-                    <PortfolioItem img_src="assets/img/portfolio/submarine.png"></PortfolioItem>
+                    <PortfolioItem img_src="assets/img/portfolio/submarine.png" target_modal_id="portfolioModal6" modal_tite="Submarine"></PortfolioItem>
                 </div>
             </div>
         </section>
